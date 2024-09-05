@@ -1,0 +1,16 @@
+.colorblock{
+    position: absolute;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: white;
+    width: 600px;
+    height: 100vh;
+    left: 25%;
+    right: 25%;
+}
+
+.coloritem{
+    border: 1px solid black;
+}
+
